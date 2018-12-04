@@ -1,8 +1,10 @@
-## [Intro](#Intro)
+![Nest](https://nestjs.com/img/logo_text.svg)
+
+# [Intro](#Intro)
 
 - Welcome to NestJS Tech Talk
 
-### [Outline](#Outline)
+## [Outline](#Outline)
 
 (Nest in 20 min)
   - [Intro](#intro)
@@ -13,7 +15,7 @@
   - [Cool and Nifty Features](#Cool-and-Nifty-Features)
   - [Outro](#Outro)
 
-## [Nest](#Nest)
+# [Nest](#Nest)
 
 - What is Nest
   - https://docs.nestjs.com/
@@ -24,7 +26,7 @@
 - Why Nest
   - https://github.com/ElephantVentures/epm-core-webflow/tree/develop/node-express-api
 
-## [Getting Started](#Getting-Started)
+# [Getting Started](#Getting-Started)
 
 https://docs.nestjs.com/first-steps
 - `$ npm i –g n@nestjs/cli`
@@ -48,9 +50,9 @@ Basic Structure
   `app.controller.ts`
       Basic controller sample with a single route.
 
-## [Creating an Endpoint](#Creating-an-Endpoint)
+# [Creating an Endpoint](#Creating-an-Endpoint)
 
-### Controller
+## Controller
 
 * https://docs.nestjs.com/controllers
 * A controller uses “decorators” to let nest know how to create it’s routing map
@@ -59,14 +61,14 @@ Basic Structure
     ```
 * Controllers are responsible for handling incoming requests and returning responses to the client.
 
-### Module
+## Module
 
 * https://docs.nestjs.com/modules
 * A module is a class annotated with a `@Module()` decorator. The `@Module()` decorator provides metadata that Nest makes use of to organize the application structure.
 
 * Controllers always belong to the module, which is why we hold the controllers array within the @Module() decorator.
 
-### Service
+## Service
 
 * https://docs.nestjs.com/providers
 * Are simply providers. Similar to EV services where they handle the endpoint logic. Heavy lifter
@@ -80,7 +82,7 @@ Endpoint Features:
 - Body
 - Query
 
-## [Cool and Nifty Features](#Cool-and-Nifty-Features)
+# [Cool and Nifty Features](#Cool-and-Nifty-Features)
 
 1. [Swagger](https://docs.nestjs.com/recipes/swagger)
     - Uses decorators within the code to define the route and endpoint structure
@@ -96,7 +98,7 @@ Endpoint Features:
     ```
 5. [Middleware](https://docs.nestjs.com/middleware)
 
-## [Outro](#Outro)
+# [Outro](#Outro)
 - Recap of Nest and What we talked about
 
-## Questions?
+# Questions?
