@@ -99,6 +99,7 @@ Endpoint Features:
     }
     ```
 5. [Middleware](https://docs.nestjs.com/middleware)
+6. Migration Scripts
 
 # [Outro](#Outro)
 - Recap of Nest and What we talked about
